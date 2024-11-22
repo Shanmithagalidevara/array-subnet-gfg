@@ -1,0 +1,5 @@
+class solution:
+      def isSubnet(arr,a,b):
+          a = set(a)
+          b = set(b)
+          return b.isSubset(a)
